@@ -1,6 +1,6 @@
-package ashley.learning.algorithm.graph;
+package indi.ashley.learning.algorithm.graph;
 
-import ashley.learning.algorithm.graph.dijkstra.AlgDijkstra;
+import indi.ashley.learning.algorithm.graph.dijkstra.AlgDijkstra;
 
 /**
  * Created by yuer5 on 16/5/18.

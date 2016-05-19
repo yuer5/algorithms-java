@@ -1,4 +1,4 @@
-package ashley.learning.algorithm.graph.dijkstra;
+package indi.ashley.learning.algorithm.graph.dijkstra;
 
 import java.util.HashSet;
 import java.util.Set;
