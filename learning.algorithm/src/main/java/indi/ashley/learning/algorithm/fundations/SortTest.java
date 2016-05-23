@@ -14,8 +14,7 @@ public class SortTest {
 
         List<Node> nodes = initNodeList();
 
-        InsertionSort sorter = new InsertionSort();
-        sorter.Sort(nodes);
+        new InsertionSort().Sort(nodes);
 
         for(Node n : nodes){
             System.out.println(n.getNodeValue());
@@ -28,6 +27,7 @@ public class SortTest {
     private static List<Node> initNodeList() {
 
         List<Node> nodes = new ArrayList<>();
+
         nodes.add(new Node(5));
         nodes.add(new Node(2));
         nodes.add(new Node(4));
