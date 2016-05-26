@@ -22,15 +22,18 @@ public class AlgoGradintDescent {
             return null;
         }
 
-        gpsGPoints = new ArrayList<>();
-        gpsGPoints.add(new GPoint(1,1));
-        gpsGPoints.add(new GPoint(3,3));
-        gpsGPoints.add(new GPoint(3,1));
+//        gpsGPoints = new ArrayList<>();
+//        gpsGPoints.add(new GPoint(1,1));
+//        gpsGPoints.add(new GPoint(3,3));
+//        gpsGPoints.add(new GPoint(3,1));
+//
+//        picGPoints = new ArrayList<>();
+//        picGPoints.add(new GPoint(0,0));
+//        picGPoints.add(new GPoint(1,1));
+//        picGPoints.add(new GPoint(1,0));
 
-        picGPoints = new ArrayList<>();
-        picGPoints.add(new GPoint(0,0));
-        picGPoints.add(new GPoint(1,1));
-        picGPoints.add(new GPoint(1,0));
+//        Xt = A0 + A1*Xs + A2*Ys
+//        Yt = B0 + B1*Xs + B2*Ys
 
         Matrix aAxis = Matrix.Factory.ones(3, 3);
         Matrix xt = Matrix.Factory.ones(3, 1);
